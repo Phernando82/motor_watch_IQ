@@ -1,0 +1,54 @@
+{
+  "_comment": "OPC UA Node IDs — fill after TIA Portal configuration. Format: ns=3;s=\"TagName\".field",
+  "_tia_portal_steps": [
+    "1. CPU Properties → OPC UA → Server → Enable OPC UA server",
+    "2. PLC Tags → right-click each tag → Accessible from HMI/OPC UA",
+    "3. Browse nodes with UAExpert or similar to confirm node IDs",
+    "4. Replace placeholder values below with actual node IDs from your project"
+  ],
+  "motors": {
+    "1": {
+      "vrms_raw":      "ns=3;s=\"VVB306_M1\".vrms_magnitude",
+      "apeak_raw":     "ns=3;s=\"VVB306_M1\".apeak_magnitude",
+      "temp_raw":      "ns=3;s=\"VVB306_M1\".temperature",
+      "device_status": "ns=3;s=\"VVB306_M1\".device_status",
+      "is_running":    "ns=3;s=\"VVB306_M1\".is_running"
+    },
+    "2": {
+      "vrms_raw":      "ns=3;s=\"VVB306_M2\".vrms_magnitude",
+      "apeak_raw":     "ns=3;s=\"VVB306_M2\".apeak_magnitude",
+      "temp_raw":      "ns=3;s=\"VVB306_M2\".temperature",
+      "device_status": "ns=3;s=\"VVB306_M2\".device_status",
+      "is_running":    "ns=3;s=\"VVB306_M2\".is_running"
+    },
+    "3": {
+      "vrms_raw":      "ns=3;s=\"VVB306_M3\".vrms_magnitude",
+      "apeak_raw":     "ns=3;s=\"VVB306_M3\".apeak_magnitude",
+      "temp_raw":      "ns=3;s=\"VVB306_M3\".temperature",
+      "device_status": "ns=3;s=\"VVB306_M3\".device_status",
+      "is_running":    "ns=3;s=\"VVB306_M3\".is_running"
+    },
+    "4": {
+      "vrms_raw":      "ns=3;s=\"VVB306_M4\".vrms_magnitude",
+      "apeak_raw":     "ns=3;s=\"VVB306_M4\".apeak_magnitude",
+      "temp_raw":      "ns=3;s=\"VVB306_M4\".temperature",
+      "device_status": "ns=3;s=\"VVB306_M4\".device_status",
+      "is_running":    "ns=3;s=\"VVB306_M4\".is_running"
+    }
+  },
+  "snap7": {
+    "_comment": "S7-1200 CPU 1214C — %IW base addresses per channel. Offsets relative to base.",
+    "_offsets": {
+      "vrms_raw":      6,
+      "apeak_raw":     16,
+      "temp_raw":      28,
+      "device_status": 32
+    },
+    "channels": {
+      "1": { "motor_id": "1", "iw_base": 208, "iw_device_status": 240 },
+      "2": { "motor_id": "2", "iw_base": 242, "iw_device_status": 274 },
+      "3": { "motor_id": "3", "iw_base": 276, "iw_device_status": 308 },
+      "4": { "motor_id": "4", "iw_base": 310, "iw_device_status": 342 }
+    }
+  }
+}

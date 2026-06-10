@@ -1,0 +1,126 @@
+{
+  "plc": {
+    "opcua": {
+      "ip": "192.168.0.10",
+      "port": 4840,
+      "url": "opc.tcp://192.168.0.10:4840",
+      "security": "None",
+      "user": "",
+      "password": ""
+    },
+    "snap7": {
+      "rack": 0,
+      "slot": 1,
+      "poll_interval_ms": 1000
+    },
+    "default_mode": "simulator"
+  },
+  "thresholds": {
+    "motors": {
+      "1": {
+        "vrms_prealarm_mms": {
+          "value": 7.1,
+          "use_default": true
+        },
+        "vrms_alarm_mms": {
+          "value": 11.2,
+          "use_default": true
+        },
+        "apeak_prealarm_mg": {
+          "value": 1000.0,
+          "use_default": true
+        },
+        "apeak_alarm_mg": {
+          "value": 2000.0,
+          "use_default": true
+        },
+        "temp_prealarm_c": {
+          "value": 65.0,
+          "use_default": true
+        },
+        "temp_alarm_c": {
+          "value": 75.0,
+          "use_default": true
+        }
+      },
+      "2": {
+        "vrms_prealarm_mms": {
+          "value": 7.1,
+          "use_default": true
+        },
+        "vrms_alarm_mms": {
+          "value": 11.2,
+          "use_default": true
+        },
+        "apeak_prealarm_mg": {
+          "value": 1000.0,
+          "use_default": true
+        },
+        "apeak_alarm_mg": {
+          "value": 2000.0,
+          "use_default": true
+        },
+        "temp_prealarm_c": {
+          "value": 65.0,
+          "use_default": true
+        },
+        "temp_alarm_c": {
+          "value": 75.0,
+          "use_default": true
+        }
+      },
+      "3": {
+        "vrms_prealarm_mms": {
+          "value": 7.1,
+          "use_default": true
+        },
+        "vrms_alarm_mms": {
+          "value": 11.2,
+          "use_default": true
+        },
+        "apeak_prealarm_mg": {
+          "value": 1000.0,
+          "use_default": true
+        },
+        "apeak_alarm_mg": {
+          "value": 2000.0,
+          "use_default": true
+        },
+        "temp_prealarm_c": {
+          "value": 65.0,
+          "use_default": true
+        },
+        "temp_alarm_c": {
+          "value": 75.0,
+          "use_default": true
+        }
+      },
+      "4": {
+        "vrms_prealarm_mms": {
+          "value": 7.1,
+          "use_default": true
+        },
+        "vrms_alarm_mms": {
+          "value": 11.2,
+          "use_default": true
+        },
+        "apeak_prealarm_mg": {
+          "value": 1000.0,
+          "use_default": true
+        },
+        "apeak_alarm_mg": {
+          "value": 2000.0,
+          "use_default": true
+        },
+        "temp_prealarm_c": {
+          "value": 65.0,
+          "use_default": true
+        },
+        "temp_alarm_c": {
+          "value": 75.0,
+          "use_default": true
+        }
+      }
+    }
+  }
+}
