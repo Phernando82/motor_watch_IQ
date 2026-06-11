@@ -9,7 +9,7 @@
 ![License](https://img.shields.io/badge/License-MIT-a6e3a1?style=flat)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat&logo=windows&logoColor=white)
 
-End-to-end IIoT motor condition monitoring system — from IFM VVB306 vibration and temperature sensors on a Siemens S7-1200 PLC, through a full data pipeline, to machine learning anomaly detection, Grafana dashboards, and bilingual maintenance reports.
+End-to-end IIoT motor condition monitoring system — from IFM VVB306 vibration and temperature sensors on a Siemens S7-1200 PLC, through a full data pipeline, to machine learning anomaly detection, Grafana dashboards, and bilingual maintenance reports. 
 
 **Portfolio page:** https://phernando82.github.io/motorwatch-iq-page/  
 **PLC/HMI project:** https://github.com/Phernando82/motorwatch-iq-plc-hmi
